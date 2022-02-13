@@ -94,7 +94,7 @@ h4 {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
     text-align: left;
     color: #202020;
@@ -132,7 +132,7 @@ h4 {
   
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   
   .App {
     padding: 15px;
@@ -152,7 +152,7 @@ h4 {
   }
 
   h2 {
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 300;
     color: #202020;
   }
