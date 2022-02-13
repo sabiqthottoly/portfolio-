@@ -47,10 +47,18 @@ h3 {
   color: #202020;
 }
 
+h4 {
+  font-weight: 300;
+}
+
 .name-block {
-  display: flex;
+  /* display: flex;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: column; */
+
+  position: absolute;
+  bottom: 100px;
+  right: 90px;
 }
 
 .bottom-contianer {

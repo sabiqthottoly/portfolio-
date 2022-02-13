@@ -1,5 +1,5 @@
 import './App.css';
-import coverImage from  './sabiq.jpg'
+import Home from './Home';
 
 function App() {
   return (
@@ -18,22 +18,8 @@ function App() {
           </div>
         </div>
         {/* header */}
+        <Home/>
 
-        <div className='bottom-contianer'>
-          <div>
-            <h1>FULL STACK</h1>
-            <h3 style={{ marginBottom: 15 }}>[ React Js, React Native, Next Js, Node Js, Mongo db, Express Js ]</h3>
-            <h1>DEVELOPER</h1>
-          </div>
-          <div>
-            <img alt='' src={coverImage} className="cover-image" />
-          </div>
-          <div className="name-block">
-            <h1>SABIQ</h1>
-            <h1>THOTTOLY</h1>
-            <h1>BAHSEER</h1>
-          </div>
-        </div>
       </div>
     </div>
   );
