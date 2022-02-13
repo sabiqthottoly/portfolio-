@@ -69,6 +69,10 @@ h3 {
     height: fit-content;
   }
 
+  .main-container {
+    height: 95vh;
+  }
+
   h1 {
     font-size: 60px;
     font-weight: 700;
@@ -84,6 +88,53 @@ h3 {
 
   .cover-image {
     height: 180px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .bottom-contianer {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .main-container {
+    padding: 20px;
+  }
+
+  .name-block {
+    align-items: flex-start;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 400px) {
+  
+  .App {
+    padding: 7px;
+    background-color:#202020;
+    height: 100vh;
+  }
+
+  .main-container {
+    height: 95vh;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: #202020;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 300;
+    color: #202020;
+  }
+
+  .cover-image {
+    height: 140px ;
     margin-top: 30px;
     margin-bottom: 30px;
   }
