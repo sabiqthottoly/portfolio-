@@ -1,38 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;700&family=Nanum+Gothic&display=swap');
+
+* { 
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 .App {
-  text-align: center;
+  padding: 50px;
+  background-color:#202020;
+  height: fit-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+  background-color: #D4D2CE;
+  padding: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-weight: 300;
+  color: #202020;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: left;
+  color: #202020;
+}
+
+h3 { 
+  font-weight: 300;
+  color: #202020;
+}
+
+.name-block {
+  display: flex;
+  align-items: flex-end;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-contianer {
+  padding-top: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.cover-image {
+  height: 270px ;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .App {
+    padding: 10px;
+    background-color:#202020;
+    height: fit-content;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: #202020;
   }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 300;
+    color: #202020;
+  }
+
+  .cover-image {
+    height: 180px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .bottom-contianer {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .main-container {
+    padding: 20px;
+  }
+
+  .name-block {
+    align-items: flex-start;
+    
+  }
+  
 }
