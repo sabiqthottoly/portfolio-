@@ -34,6 +34,14 @@ h2 {
   font-weight: 300;
   font-size: 20px;
   color: #202020;
+
+ 
+}
+
+.stroke-text {
+  color: #202020;
+  -webkit-text-stroke: 1px #202020;
+  -webkit-text-fill-color:transparent;
 }
 
 h1 {
@@ -41,6 +49,8 @@ h1 {
   font-weight: 700;
   text-align: left;
   color: #202020;
+
+  
 }
 
 h3 { 
