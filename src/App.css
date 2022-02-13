@@ -17,7 +17,7 @@ body {
 .App {
   padding: 50px;
   background-color:#202020;
-  height: fit-content;
+  min-height: 100vh;
 }
 
 .main-container {
@@ -32,6 +32,7 @@ body {
 
 h2 {
   font-weight: 300;
+  font-size: 20px;
   color: #202020;
 }
 
@@ -51,14 +52,25 @@ h4 {
   font-weight: 300;
 }
 
-.name-block {
-  /* display: flex;
-  align-items: flex-end;
-  flex-direction: column; */
+.top-part {
+  display: flex;
+  justify-content: space-between;
+}
 
-  position: absolute;
-  bottom: 100px;
-  right: 90px;
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.name-block {
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* flex-direction: column; */
+
+  /* position: absolute; */
+  /* bottom: 100px; */
+  /* right: 90px; */
 }
 
 .bottom-contianer {
@@ -72,7 +84,7 @@ h4 {
 @media only screen and (max-width: 900px) {
   
   .App {
-    padding: 10px;
+    padding: 20px;
     background-color:#202020;
     height: fit-content;
   }
@@ -109,6 +121,10 @@ h4 {
     padding: 20px;
   }
 
+  .bottom-part {
+    display:contents;
+  }
+  
   .name-block {
     align-items: flex-start;
     
@@ -119,7 +135,7 @@ h4 {
 @media only screen and (max-width: 400px) {
   
   .App {
-    padding: 7px;
+    padding: 15px;
     background-color:#202020;
     height: 100vh;
   }
@@ -129,7 +145,7 @@ h4 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     text-align: left;
     color: #202020;
