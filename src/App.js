@@ -26,7 +26,7 @@ function App() {
             <h1>DEVELOPER</h1>
           </div>
           <div>
-            <img src={coverImage} className="cover-image" />
+            <img alt='' src={coverImage} className="cover-image" />
           </div>
           <div className="name-block">
             <h1>SABIQ</h1>
