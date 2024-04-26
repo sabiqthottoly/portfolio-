@@ -10,7 +10,7 @@ function App() {
           <h2>Sabiq Thottoly Basheer</h2>
           <div>
             <h2>{`Currently full stack`}</h2>
-            <h2>{`devleoper at Challenger App`}</h2>
+            <h2>{`devleoper at Telstra`}</h2>
           </div>
           <div>
             <h2>{`Based in Kerala`}</h2>
